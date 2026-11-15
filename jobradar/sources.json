@@ -3,9 +3,111 @@
     {
       "id": "zjhrss",
       "name": "浙江省人力资源和社会保障厅",
-      "url": "https://rlsbt.zj.gov.cn/col/col1443681/index.html",
+      "url": "https://rlsbt.zj.gov.cn/col/col1229743683/index.html",
       "enabled": true,
-      "note": "公告栏目；如网页结构调整，需更新来源链接"
+      "note": "旧栏目 JavaScript 跳转至此；本地出现 403 或仅栏目导航，未验证到静态公告链接，不绕过限制",
+      "include_url_pattern": "^https://rlsbt\\.zj\\.gov\\.cn/.*/art/",
+      "article_class": "wp_articlecontent"
+    },
+    {
+      "id": "zju_hr",
+      "name": "浙江大学人力资源处",
+      "url": "https://hr.zju.edu.cn/cn/",
+      "enabled": true,
+      "include_url_pattern": "^https://hr\\.zju\\.edu\\.cn/cn/\\d{4}/\\d{4}/c\\d+a\\d+/page\\.htm$",
+      "note": "仅采集本站公告详情链接；候选公告不代表符合条件或仍在报名期",
+      "article_class": "wp_articlecontent"
+    },
+    {
+      "id": "zjgsu_hr",
+      "name": "浙江工商大学人事处",
+      "url": "https://rsc.zjgsu.edu.cn/",
+      "enabled": true,
+      "include_url_pattern": "^https://rsc\\.zjgsu\\.edu\\.cn/\\d{4}/\\d{4}/c\\d+a\\d+/page\\.htm$",
+      "note": "仅采集本站公告详情链接；保留待核实状态",
+      "article_class": "wp_articlecontent"
+    },
+    {
+      "id": "nimte_laser",
+      "name": "宁波材料所激光极端制造研究中心",
+      "url": "https://laser.nimte.ac.cn/jobs.html",
+      "enabled": true,
+      "article_class": "html",
+      "include_url_pattern": "^https://laser\\.nimte\\.ac\\.cn/view-\\d+\\.html$",
+      "note": "官方团队招聘栏目；逐岗位核实用工方式、领域经验及有效期"
+    },
+    {
+      "id": "hikvision_cpp",
+      "name": "海康威视官方社会招聘",
+      "url": "https://talent.hikvision.com/home/socity/position?postId=A27B035746C0AC6A44CA5D5937F03864",
+      "kind": "article",
+      "keywords": [
+        "C++"
+      ],
+      "enabled": true,
+      "article_class": "detail-content",
+      "include_url_pattern": "^https://talent\\.hikvision\\.com/home/socity/position\\?postId=A27B035746C0AC6A44CA5D5937F03864$",
+      "note": "已发现官方 C++ 社招详情的定点监测，不代表自动发现全站岗位；单位性质及具体雇佣主体待核实"
+    },
+    {
+      "id": "zju_iam",
+      "name": "浙江大学高端装备研究院",
+      "url": "https://iam.zju.edu.cn/93639/list.htm",
+      "article_class": "wp_articlecontent",
+      "include_url_pattern": "^https://iam\\.zju\\.edu\\.cn/\\d{4}/\\d{4}/c\\d+a\\d+/page\\.htm$",
+      "region": "杭州",
+      "enabled": true
+    },
+    {
+      "id": "xidian_hz",
+      "name": "西安电子科技大学杭州研究院",
+      "url": "https://hyyzp.xidian.edu.cn/portal/list",
+      "adapter": "xidian",
+      "article_class": "content-list-right1",
+      "include_url_pattern": "^https://hyyzp\\.xidian\\.edu\\.cn/portal/info/[a-fA-F0-9]+$",
+      "single_position": true,
+      "keywords": [
+        ""
+      ],
+      "max_pages": 2,
+      "region": "杭州",
+      "enabled": true
+    },
+    {
+      "id": "nimte_portal",
+      "name": "中国科学院宁波材料所招聘门户",
+      "url": "https://job.nimte.ac.cn/index",
+      "adapter": "nimte_portal",
+      "article_class": "job-details",
+      "include_url_pattern": "^https://job\\.nimte\\.ac\\.cn/system/userInfo/positionInfo\\?id=\\d+&isDelivery=null$",
+      "single_position": true,
+      "keywords": [
+        ""
+      ],
+      "region": "宁波",
+      "enabled": true
+    },
+    {
+      "id": "cncico",
+      "name": "浙江省交通投资集团",
+      "url": "https://www.cncico.com/channel/talents",
+      "adapter": "cncico",
+      "article_class": "content-talent",
+      "include_url_pattern": "^https://www\\.cncico\\.com/content/\\d+$",
+      "max_pages": 2,
+      "region": "浙江（逐岗位核实）",
+      "enabled": true,
+      "collection_hold": "复测返回非 JSON 页面且正文不可用；暂停自动请求，保留失败状态，待人工核实访问策略或结构后再启用"
+    },
+    {
+      "id": "zjimee",
+      "name": "浙江省机电设计研究院",
+      "url": "https://www.zjimee.com.cn/",
+      "article_class": "unverified",
+      "include_url_pattern": "^https://www\\.zjimee\\.com\\.cn/.+",
+      "region": "杭州",
+      "note": "公开首页为 JS 应用，未验证到可直接采集列表；保留真实失败状态",
+      "enabled": true
     }
   ]
 }

@@ -1,0 +1,136 @@
+{
+  "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+  "updated_at": "2026-11-15T05:00:54+00:00",
+  "sources": [
+    {
+      "source_id": "zju_iam",
+      "name": "浙江大学高端装备研究院",
+      "official_entry": "https://iam.zju.edu.cn/93639/list.htm",
+      "public_entry_accessed": true,
+      "new_notice_discovery": true,
+      "coverage": "当前栏目页",
+      "latest_list_status": "ok",
+      "list_error": null,
+      "retained_notices": 3,
+      "latest_detail_ok": 3,
+      "conditions_readable": "部分为图片，尚未解析岗位要求",
+      "explicit_deadlines_read": 0,
+      "deadline_note": "招满即止，无固定日期，招聘是否仍有效待核实"
+    },
+    {
+      "source_id": "xidian_hz",
+      "name": "西安电子科技大学杭州研究院",
+      "official_entry": "https://hyyzp.xidian.edu.cn/portal/list",
+      "public_entry_accessed": true,
+      "new_notice_discovery": true,
+      "coverage": "最新两页",
+      "latest_list_status": "ok",
+      "list_error": null,
+      "retained_notices": 20,
+      "latest_detail_ok": 20,
+      "conditions_readable": "成功读取岗位原文",
+      "explicit_deadlines_read": 0,
+      "deadline_note": "页面未给出可确认期限"
+    },
+    {
+      "source_id": "nimte_portal",
+      "name": "中国科学院宁波材料所招聘门户",
+      "official_entry": "https://job.nimte.ac.cn/index",
+      "public_entry_accessed": true,
+      "new_notice_discovery": true,
+      "coverage": "首页最新岗位",
+      "latest_list_status": "ok",
+      "list_error": null,
+      "retained_notices": 12,
+      "latest_detail_ok": 12,
+      "conditions_readable": "成功读取岗位原文",
+      "explicit_deadlines_read": 12,
+      "deadline_note": "保留岗位页明确截止日期"
+    },
+    {
+      "source_id": "cncico",
+      "name": "浙江省交通投资集团",
+      "official_entry": "https://www.cncico.com/channel/talents",
+      "public_entry_accessed": true,
+      "new_notice_discovery": true,
+      "coverage": "最新两页",
+      "latest_list_status": "failed",
+      "list_error": "Collection held: 复测返回非 JSON 页面且正文不可用；暂停自动请求，保留失败状态，待人工核实访问策略或结构后再启用",
+      "retained_notices": 14,
+      "latest_detail_ok": 0,
+      "conditions_readable": "首轮成功、复测失败，已暂停请求",
+      "explicit_deadlines_read": 0,
+      "deadline_note": "失败状态不能当作已核实期限"
+    },
+    {
+      "source_id": "zjimee",
+      "name": "浙江省机电设计研究院",
+      "official_entry": "https://www.zjimee.com.cn/",
+      "public_entry_accessed": true,
+      "new_notice_discovery": false,
+      "coverage": "当前栏目页",
+      "latest_list_status": "failed",
+      "list_error": "No candidate notices: check page structure, JS redirect or access restriction",
+      "retained_notices": 0,
+      "latest_detail_ok": 0,
+      "conditions_readable": "未验证",
+      "explicit_deadlines_read": 0,
+      "deadline_note": "失败状态不能当作已核实期限"
+    }
+  ],
+  "first_discoveries": [
+    {
+      "id": "7a5cd1305714385e2ed49555",
+      "notice_id": "fe934b84b5ee2c3c3097",
+      "title": "软件开发工程师",
+      "source": "浙江省交通投资集团",
+      "official_url": "https://www.cncico.com/content/83825",
+      "evidence_url": "https://www.cncico.com/content/83825",
+      "evidence_section": "正文岗位表第 4 行",
+      "deadline": null,
+      "match_reasons": [
+        "岗位原文出现：C++"
+      ],
+      "confirmed_obstacles": [],
+      "confirmed_limitations": [],
+      "unverified_conditions": [
+        "工作地点是否在杭州及浙江",
+        "专业是否符合",
+        "具体领域经验是否满足",
+        "年龄及其他身份要求",
+        "实际雇佣主体与单位属性",
+        "当前是否仍接受报名及截止时间"
+      ],
+      "evidence": [
+        {
+          "field": "employer",
+          "text": "创新业务事业部",
+          "url": "https://www.cncico.com/content/83825"
+        },
+        {
+          "field": "department",
+          "text": "业务支持部",
+          "url": "https://www.cncico.com/content/83825"
+        },
+        {
+          "field": "requirements",
+          "text": "1.35周岁以下，本科及以上学历并取得相应学位电子信息、自动化、计算机、通信等相关专业；2.3年以上工作经验，熟练掌握C或C++软件开发，熟悉操作系统原理（linux）并掌握Linux开发环境，具备一定的安防产品开发经验者优先考虑；3.熟悉TCP/IP网络协议基础并具备定的网络编程经验；具备ONVIF、PSIA、GB28181等相关视频监控协议或Http、RTSP、SIP、FTP等网络协议族开发经验者优先考虑；4.具备软件系统架构设计能力和独立软件模块设计能力者优先考虑。",
+          "url": "https://www.cncico.com/content/83825"
+        },
+        {
+          "field": "recruitment_type",
+          "text": "社会招聘",
+          "url": "https://www.cncico.com/content/83825"
+        },
+        {
+          "field": "education",
+          "text": "1.35周岁以下，本科及以上学历并取得相应学位电子信息、自动化、计算机、通信等相关专业",
+          "url": "https://www.cncico.com/content/83825"
+        }
+      ],
+      "changes": [],
+      "discovery_note": "首次采集或首次成功解析；不代表今天发布"
+    }
+  ],
+  "first_discoveries_current_status": "cncico 复测失败，首轮候选仅保留历史证据，不纳入最新增量推荐"
+}

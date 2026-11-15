@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+scratch/
+
+.jobradar-state/
+
+.env
+.env.*
+*.log
+*.pem
+*.key
+credentials.json

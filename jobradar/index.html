@@ -1,7 +1,63 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JobRadar · 招聘雷达</title><style>*{box-sizing:border-box}body{margin:0;background:#f3f6f3;color:#20372f;font:15px/1.65 system-ui,-apple-system,"Microsoft YaHei",sans-serif}main{max-width:980px;margin:auto;padding:25px 18px 80px}a{color:#247a53}header{background:#173b36;color:white;padding:34px 18px}header>div{max-width:980px;margin:auto}header a{color:#d3e8da}h1{font-size:36px;margin:12px 0 4px}.muted{color:#708477}.panel,.job{background:white;border-radius:16px;padding:18px;margin:15px 0;box-shadow:0 4px 20px #20372f0c}.controls{display:flex;gap:12px;flex-wrap:wrap}input,select{font:inherit;border:1px solid #d5dfd8;border-radius:10px;padding:10px;min-width:180px;flex:1}.score{font-size:22px;font-weight:700;color:#26744e}.top{display:flex;justify-content:space-between;gap:12px}.job h3{margin:0 0 5px}.pill{background:#e6f0e9;border-radius:30px;padding:3px 9px;font-size:12px;display:inline-block;margin:5px 4px 0 0}.warn{color:#97621e}#list:empty:after{content:"暂无已验证岗位。可稍后刷新或检查采集状态。";display:block;padding:35px;text-align:center;color:#708477}@media(max-width:600px){h1{font-size:29px}.controls{display:block}.controls>*{display:block;width:100%;margin:8px 0}}</style></head><body><header><div><a href="../index.html">← 返回我的生活地图</a><h1>📡 JobRadar</h1><p>杭州优先 · 国企社招 / 科研院所 / 事业单位 · C++ 与三维研发</p></div></header><main><section class="panel"><b>岗位雷达 · V0.1</b><p class="muted" id="meta">正在读取数据…</p><div class="controls"><input id="q" placeholder="搜索岗位 / 单位 / 来源"><select id="sort"><option value="recent">最新发现</option><option value="score">匹配评分</option></select><select id="filter"><option value="all">全部候选</option><option value="tech">标题包含技术关键词</option></select></div><p class="muted">注意：匹配分仅根据公告标题初筛，学历、专业、编制、报名期限均须核对官方原文。采集到的公告不等于可投递岗位。</p></section><section id="list"></section></main><script>
-let jobs=[];
-const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-function render(){let q=document.querySelector("#q").value.toLowerCase(),sort=document.querySelector("#sort").value,filter=document.querySelector("#filter").value;let a=jobs.filter(j=>(j.title+" "+j.source).toLowerCase().includes(q)&& (filter!=="tech"||j.score>=40));a.sort((x,y)=>sort==="score"?y.score-x.score:String(y.first_seen).localeCompare(String(x.first_seen)));document.querySelector("#list").innerHTML=a.map(j=>`<article class="job"><div class="top"><div><h3>${esc(j.title)}</h3><span class="muted">${esc(j.source)}</span></div><span class="score">${Number(j.score)||0}</span></div><span class="pill">资格：${esc(j.eligibility)}</span><span class="pill">用工：${esc(j.employment)}</span><p class="muted">首次发现：${esc(j.first_seen?.slice(0,10)||"未知")} · 截止日期：${esc(j.deadline||"未提取")}</p><a href="${esc(j.url)}" target="_blank" rel="noopener noreferrer">查看官方来源 →</a></article>`).join("");}
-["q","sort","filter"].forEach(id=>document.getElementById(id).addEventListener("input",render));
-fetch("./jobs.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(data=>{jobs=data.jobs||[];let err=(data.sources_failed||[]).length;document.querySelector("#meta").textContent=`收录 ${jobs.length} 条候选公告 · 上次更新：${data.updated_at||"尚未运行"} · 来源成功：${data.sources_ok||0} · 失败：${err}`+(err?" ⚠️ 请检查 Actions 日志":"");render()}).catch(e=>document.querySelector("#meta").textContent="数据读取失败："+e.message);
-</script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="个人求职工作台，聚合官方招聘公告，核对岗位要求，记录求职进度。">
+<title>JobRadar · 个人求职工作台</title>
+<link rel="stylesheet" href="./style.css">
+<script defer src="./ui-core.js"></script><script defer src="./app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+<aside class="sidebar">
+  <a class="brand" href="./"><span class="radar-mark" aria-hidden="true"><i></i></span><span>JobRadar<small>个人求职工作台</small></span></a>
+  <p class="nav-caption">我的工作空间</p>
+  <nav aria-label="主导航">
+    <button data-view="priority" aria-current="page"><span aria-hidden="true">◎</span>优先核实<span id="nav-priority" class="nav-count">—</span></button>
+    <button data-view="all"><span aria-hidden="true">▤</span>全部公告<span id="nav-all" class="nav-count">—</span></button>
+    <button data-view="saved"><span aria-hidden="true">☆</span>我的收藏<span id="nav-saved" class="nav-count">0</span></button>
+    <button data-view="tracking"><span aria-hidden="true">▥</span>投递进度<span id="nav-tracking" class="nav-count">0</span></button>
+    <button data-view="sources"><span aria-hidden="true">◉</span>来源健康</button>
+  </nav>
+  <div class="profile"><span class="eyebrow">当前关注方向</span><strong>软件技术 · 工业研发</strong><p>杭州及浙江 · 硕士 · 约 3 年经验</p><div class="tags"><span>C++</span><span>Qt</span><span>CAD</span><span>OpenGL</span></div></div>
+  <div class="sidebar-bottom"><a href="../index.html">← 返回生活地图</a><span>JobRadar V0.1 · 官方来源</span></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><div><span class="status-dot"></span>个人求职雷达<span class="topbar-note"> / 杭州优先</span></div><button id="reload" class="button subtle">刷新数据 ↻</button></header>
+  <main id="main" tabindex="-1">
+    <section class="page-heading"><div><p class="eyebrow">JOBRADAR / OPPORTUNITIES</p><h1 id="view-title">优先核实</h1><p id="view-description">先核对与你的技术方向相关的岗位。</p></div><div class="local-label"><span class="status-dot"></span>个人记录仅保存在此浏览器</div></section>
+    <section class="stats" aria-label="数据概况">
+      <div class="stat"><span>收录官方公告</span><strong id="stat-total">—</strong><small>已按公告链接去重</small></div>
+      <div class="stat featured"><span>技术相关 · 优先核实</span><strong id="stat-priority">—</strong><small>已排除明确过期公告</small></div>
+      <div class="stat"><span>采集来源正常</span><strong id="stat-sources">—</strong><small id="source-hint">等待数据</small></div>
+      <div class="stat"><span>我的跟进记录</span><strong id="stat-tracking">0</strong><small>由你手动记录投递进度</small></div>
+    </section>
+    <p id="meta" class="meta" role="status">正在读取招聘数据…</p>
+    <section id="daily-summary" class="panel" aria-label="本次增量岗位摘要">
+      <h2>本次增量岗位摘要</h2>
+      <p id="daily-summary-status" class="meta" role="status">正在读取增量摘要…</p>
+      <div id="daily-summary-items"></div>
+    </section>
+    <p id="storage-warning" class="notice warning" role="status" hidden></p>
+    <section id="browser-tools" class="toolbar panel" aria-label="筛选公告">
+      <label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">搜索岗位、技能、单位</span><input id="q" type="search" placeholder="搜索岗位、技能、单位，例如 C++ / 三维"></label>
+      <div class="filter-row">
+        <label>来源<select id="source"><option value="all">全部来源</option></select></label>
+        <label>报名期限<select id="deadline"><option value="all">全部期限</option><option value="not-expired">排除明确过期</option><option value="unknown">期限待核实</option><option value="expired">已过期</option></select></label>
+        <label>公告类型<select id="type"><option value="all">全部类型</option><option value="notice">招聘公告</option><option value="process">公示 / 流程通知</option><option value="failed">正文获取失败</option></select></label>
+        <label>排序<select id="sort"><option value="recent">最新发现</option><option value="score">标题匹配分</option></select></label>
+        <button id="reset" class="button subtle">重置筛选</button>
+      </div>
+    </section>
+    <div class="content-grid">
+      <section class="results"><div class="section-heading"><h2 id="result-title">待核实机会</h2><span id="result-count" class="meta"></span></div><div id="list" aria-live="polite"></div><div id="health" hidden></div></section>
+      <aside class="context-rail">
+        <section class="panel guide"><p class="eyebrow">阅读提示</p><h2>先看条件，再做决定</h2><ol><li>核对招聘是否仍有效。</li><li>逐岗位查看学历、专业和经验。</li><li>确认用工方式，再记录投递进度。</li></ol><p>技术相关不代表符合资格。未知期限不代表仍在招聘。</p></section>
+        <section class="panel"><p class="eyebrow">我的记录</p><h2>收藏与跟进</h2><p class="muted">收藏、投递进度和备注仅存于当前浏览器，不会发布到招聘网页。换设备前可以导出备份。</p><button id="export" class="button full">导出个人记录 ↓</button><label class="button full import-label">导入记录合并备份<input id="import" type="file" accept="application/json,.json"><span class="sr-only">同一公告的记录以导入内容为准</span></label><p id="record-message" class="meta" role="status"></p></section>
+      </aside>
+    </div>
+    <footer class="footer">所有岗位条件以官方原文为准。当前为规则初筛，未使用 AI 生成招聘信息。</footer>
+  </main>
+</div>
+<noscript>请启用 JavaScript 读取招聘数据。原始公告数据可在 <a href="./jobs.json">jobs.json</a> 查看。</noscript>
+</body></html>
