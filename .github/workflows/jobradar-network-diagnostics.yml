@@ -1,0 +1,53 @@
+name: JobRadar network diagnostics
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Probe official sites independently
+        run: |
+          python - <<'PY'
+          import json, socket, ssl, time
+          from urllib.parse import urlsplit
+          from urllib.request import Request, urlopen
+          from pathlib import Path
+          sources = json.loads(Path("jobradar/sources.json").read_text(encoding="utf-8"))["sources"]
+          targets = [(s["id"], s["url"]) for s in sources if s.get("enabled", True)]
+          targets += [
+              ("zjgov", "https://www.zj.gov.cn/"),
+              ("hangzhou", "https://www.hangzhou.gov.cn/"),
+              ("github", "https://github.com/"),
+          ]
+          print("Network probe (diagnostics only; not a job collection):", flush=True)
+          for name, url in targets:
+              host = urlsplit(url).hostname
+              try:
+                  ips = sorted({a[4][0] for a in socket.getaddrinfo(host, 443, type=socket.SOCK_STREAM)})
+                  print(f"{name}: DNS OK {ips[:3]}", flush=True)
+              except Exception as e:
+                  print(f"{name}: DNS FAILED {type(e).__name__}: {e}", flush=True)
+                  continue
+              start = time.monotonic()
+              try:
+                  with socket.create_connection((host, 443), timeout=7) as sock:
+                      print(f"{name}: TCP OK {time.monotonic()-start:.1f}s", flush=True)
+                      with ssl.create_default_context().wrap_socket(sock, server_hostname=host):
+                          print(f"{name}: TLS OK", flush=True)
+              except Exception as e:
+                  print(f"{name}: TCP/TLS FAILED {type(e).__name__}: {e}", flush=True)
+                  continue
+              try:
+                  req = Request(url, headers={"User-Agent":"Mozilla/5.0 JobRadar-Diagnostic/0.1"})
+                  with urlopen(req, timeout=8) as resp:
+                      print(f"{name}: HTTP {resp.status}, final={resp.url}", flush=True)
+              except Exception as e:
+                  print(f"{name}: HTTP FAILED {type(e).__name__}: {e}", flush=True)
+          PY
