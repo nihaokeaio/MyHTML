@@ -1,6 +1,11 @@
 {
-  "updated_at": null,
+  "updated_at": "2026-11-15T03:38:19+00:00",
   "sources_ok": 0,
-  "sources_failed": [],
+  "sources_failed": [
+    {
+      "source": "zjhrss",
+      "error": "<urlopen error _ssl.c:994: The handshake operation timed out>"
+    }
+  ],
   "jobs": []
 }
