@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 import re
+import time
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -54,9 +55,20 @@ def score(title):
 
 def fetch_links(source):
     req = Request(source["url"], headers={"User-Agent": "JobRadar/0.1 (+personal public recruitment monitor)"})
-    with urlopen(req, timeout=18) as response:
-        content = response.read(2_000_000)
-        charset = response.headers.get_content_charset() or "utf-8"
+    last_error = None
+    for attempt in range(1, 4):
+        try:
+            with urlopen(req, timeout=12) as response:
+                content = response.read(2_000_000)
+                charset = response.headers.get_content_charset() or "utf-8"
+            break
+        except Exception as exc:
+            last_error = exc
+            print(f'{source["id"]}: attempt {attempt}/3 failed: {type(exc).__name__}: {exc}', flush=True)
+            if attempt < 3:
+                time.sleep(attempt * 2)
+    else:
+        raise RuntimeError(f"All 3 attempts failed: {last_error}")
     parser = LinkParser()
     parser.feed(content.decode(charset, errors="replace"))
     for href, title in parser.links:
