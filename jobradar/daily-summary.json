@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
-  "updated_at": "2026-11-15T05:00:54+00:00",
-  "previous_run_at": "2026-11-15T04:57:30+00:00",
+  "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
+  "updated_at": "2026-11-15T06:45:52+00:00",
+  "previous_run_at": "2026-11-15T05:00:54+00:00",
   "comparison_date": "2026-11-15",
   "status": "partial_failure",
   "stage_exit_codes": {

@@ -1,6 +1,6 @@
 {
-  "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
-  "updated_at": "2026-11-15T05:00:54+00:00",
+  "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
+  "updated_at": "2026-11-15T06:45:52+00:00",
   "sources_ok": 7,
   "sources_failed": [
     {
@@ -90,7 +90,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -135,11 +135,11 @@
       "body_positions": [],
       "conditions_status": "images_require_review",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://iam.zju.edu.cn/2026/0723/c93639a3190973/page.htm",
         "characters": 435,
-        "checked_at": "2026-11-15T05:00:59+00:00",
+        "checked_at": "2026-11-15T06:47:58+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -156,7 +156,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -206,11 +206,11 @@
       "body_positions": [],
       "conditions_status": "body_evidence_only",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://iam.zju.edu.cn/2026/0723/c93639a3190972/page.htm",
         "characters": 1406,
-        "checked_at": "2026-11-15T05:01:00+00:00",
+        "checked_at": "2026-11-15T06:47:59+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -227,7 +227,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -272,11 +272,11 @@
       "body_positions": [],
       "conditions_status": "images_require_review",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://iam.zju.edu.cn/2026/0723/c93639a3190971/page.htm",
         "characters": 431,
-        "checked_at": "2026-11-15T05:01:01+00:00",
+        "checked_at": "2026-11-15T06:48:00+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -293,7 +293,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -379,11 +379,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/d2ae243502b1422496d30a0777e4d015",
         "characters": 500,
-        "checked_at": "2026-11-15T05:01:01+00:00",
+        "checked_at": "2026-11-15T06:48:09+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -400,7 +400,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -486,11 +486,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/06e91b0fff2041c7876a7be43a229576",
         "characters": 501,
-        "checked_at": "2026-11-15T05:01:02+00:00",
+        "checked_at": "2026-11-15T06:48:19+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -507,7 +507,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -593,11 +593,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/8892eb6dcd984d028458ec5053d79858",
         "characters": 503,
-        "checked_at": "2026-11-15T05:01:03+00:00",
+        "checked_at": "2026-11-15T06:48:29+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -614,7 +614,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -684,11 +684,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/d0d3d039114d4ea3a699afa593b90c65",
         "characters": 1040,
-        "checked_at": "2026-11-15T05:01:04+00:00",
+        "checked_at": "2026-11-15T06:48:39+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -705,7 +705,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -783,11 +783,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/1bfc3fe7b2f44eaabb9a9a43274d61dc",
         "characters": 953,
-        "checked_at": "2026-11-15T05:01:04+00:00",
+        "checked_at": "2026-11-15T06:48:48+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -804,7 +804,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -883,11 +883,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/795318ebe95c46cb83e224bb3f2d9a4a",
         "characters": 1046,
-        "checked_at": "2026-11-15T05:01:05+00:00",
+        "checked_at": "2026-11-15T06:48:58+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -904,7 +904,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -983,11 +983,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/946a87859e6241668bf074f8f945f9af",
         "characters": 1106,
-        "checked_at": "2026-11-15T05:01:06+00:00",
+        "checked_at": "2026-11-15T06:49:08+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1004,7 +1004,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -1079,11 +1079,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/4c4db4cdec3b411d863717ce35ae8907",
         "characters": 1051,
-        "checked_at": "2026-11-15T05:01:07+00:00",
+        "checked_at": "2026-11-15T06:49:18+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1100,7 +1100,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -1167,11 +1167,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/1f52f9871bf648b5b2a57fbbae57176f",
         "characters": 422,
-        "checked_at": "2026-11-15T05:01:08+00:00",
+        "checked_at": "2026-11-15T06:49:28+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1188,7 +1188,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -1275,11 +1275,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/63d8e26c92cb4443bfe7d9caca2b09e3",
         "characters": 395,
-        "checked_at": "2026-11-15T05:01:08+00:00",
+        "checked_at": "2026-11-15T06:49:37+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1296,7 +1296,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -1359,11 +1359,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/258568ac76dc4994b16e4246b4960522",
         "characters": 449,
-        "checked_at": "2026-11-15T05:01:09+00:00",
+        "checked_at": "2026-11-15T06:49:47+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1380,7 +1380,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -1463,11 +1463,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/e22a1bc2c4444463903468756975d814",
         "characters": 419,
-        "checked_at": "2026-11-15T05:01:10+00:00",
+        "checked_at": "2026-11-15T06:49:57+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1484,7 +1484,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -1559,11 +1559,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/c9549a0bae9d4681b9b056e69a769a2b",
         "characters": 434,
-        "checked_at": "2026-11-15T05:01:11+00:00",
+        "checked_at": "2026-11-15T06:50:07+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1580,7 +1580,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -1663,11 +1663,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/5f74d138cf4f456e9ab0f314e3022de4",
         "characters": 385,
-        "checked_at": "2026-11-15T05:01:11+00:00",
+        "checked_at": "2026-11-15T06:50:17+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1684,7 +1684,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -1802,11 +1802,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/bf7098c056ad4a47a73f154c7501402a",
         "characters": 414,
-        "checked_at": "2026-11-15T05:01:12+00:00",
+        "checked_at": "2026-11-15T06:50:26+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1823,7 +1823,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -1922,11 +1922,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/515b2859cf2b46b392399b228283949b",
         "characters": 526,
-        "checked_at": "2026-11-15T05:01:13+00:00",
+        "checked_at": "2026-11-15T06:50:36+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -1943,7 +1943,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2026,11 +2026,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/7dd837ddb1bf42dcb259b593ff627cb1",
         "characters": 492,
-        "checked_at": "2026-11-15T05:01:14+00:00",
+        "checked_at": "2026-11-15T06:50:46+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -2047,7 +2047,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2141,11 +2141,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/243ce0a982ec464aa107fcdc61344375",
         "characters": 469,
-        "checked_at": "2026-11-15T05:01:14+00:00",
+        "checked_at": "2026-11-15T06:50:56+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -2162,7 +2162,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2268,11 +2268,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/01391d9159704b1d99929123ad44c17d",
         "characters": 558,
-        "checked_at": "2026-11-15T05:01:15+00:00",
+        "checked_at": "2026-11-15T06:51:06+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -2289,7 +2289,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2395,11 +2395,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hyyzp.xidian.edu.cn/portal/info/8c6e339d887d4f09be6209057217fccb",
         "characters": 521,
-        "checked_at": "2026-11-15T05:01:16+00:00",
+        "checked_at": "2026-11-15T06:51:16+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -2416,7 +2416,7 @@
       "deadline": "2027-11-12",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2499,11 +2499,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2120699263605596161&isDelivery=null",
         "characters": 884,
-        "checked_at": "2026-11-15T05:01:17+00:00",
+        "checked_at": "2026-11-15T06:51:26+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -2520,7 +2520,7 @@
       "deadline": "2027-11-05",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2590,11 +2590,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2118278695031709698&isDelivery=null",
         "characters": 540,
-        "checked_at": "2026-11-15T05:01:18+00:00",
+        "checked_at": "2026-11-15T06:51:36+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -2611,7 +2611,7 @@
       "deadline": "2027-11-01",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2705,11 +2705,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2118609159923740674&isDelivery=null",
         "characters": 808,
-        "checked_at": "2026-11-15T05:01:19+00:00",
+        "checked_at": "2026-11-15T06:51:46+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -2726,7 +2726,7 @@
       "deadline": "2027-10-31",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2805,11 +2805,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2118615012382912514&isDelivery=null",
         "characters": 1125,
-        "checked_at": "2026-11-15T05:01:19+00:00",
+        "checked_at": "2026-11-15T06:51:56+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -2826,7 +2826,7 @@
       "deadline": "2026-12-31",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2901,11 +2901,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2014520145797742594&isDelivery=null",
         "characters": 1179,
-        "checked_at": "2026-11-15T05:01:20+00:00",
+        "checked_at": "2026-11-15T06:52:06+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -2922,7 +2922,7 @@
       "deadline": "2027-02-28",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -2997,11 +2997,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2089622582015098881&isDelivery=null",
         "characters": 879,
-        "checked_at": "2026-11-15T05:01:21+00:00",
+        "checked_at": "2026-11-15T06:52:16+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -3018,7 +3018,7 @@
       "deadline": "2026-12-31",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -3097,11 +3097,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2062096688824500226&isDelivery=null",
         "characters": 841,
-        "checked_at": "2026-11-15T05:01:22+00:00",
+        "checked_at": "2026-11-15T06:52:26+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -3118,7 +3118,7 @@
       "deadline": "2027-05-25",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -3201,11 +3201,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2059526346696359938&isDelivery=null",
         "characters": 690,
-        "checked_at": "2026-11-15T05:01:23+00:00",
+        "checked_at": "2026-11-15T06:52:36+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -3222,7 +3222,7 @@
       "deadline": "2027-05-25",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -3309,11 +3309,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2059532903093960706&isDelivery=null",
         "characters": 684,
-        "checked_at": "2026-11-15T05:01:24+00:00",
+        "checked_at": "2026-11-15T06:52:46+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -3330,7 +3330,7 @@
       "deadline": "2027-04-05",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -3413,11 +3413,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2041683748678131714&isDelivery=null",
         "characters": 918,
-        "checked_at": "2026-11-15T05:01:25+00:00",
+        "checked_at": "2026-11-15T06:52:56+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -3434,7 +3434,7 @@
       "deadline": "2027-10-31",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -3509,11 +3509,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=2118618675092434946&isDelivery=null",
         "characters": 1110,
-        "checked_at": "2026-11-15T05:01:26+00:00",
+        "checked_at": "2026-11-15T06:53:06+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -3530,7 +3530,7 @@
       "deadline": "2027-10-29",
       "status": "待核实",
       "first_seen": "2026-11-15T04:51:38+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -3613,11 +3613,11 @@
       ],
       "conditions_status": "parsed_roles",
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://job.nimte.ac.cn/system/userInfo/positionInfo?id=1779672992459300866&isDelivery=null",
         "characters": 948,
-        "checked_at": "2026-11-15T05:01:27+00:00",
+        "checked_at": "2026-11-15T06:53:16+00:00",
         "rule_version": 2
       },
       "listing": {}
@@ -3696,7 +3696,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:27+00:00"
+        "checked_at": "2026-11-15T06:53:16+00:00"
       }
     },
     {
@@ -3770,7 +3770,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:28+00:00"
+        "checked_at": "2026-11-15T06:53:17+00:00"
       }
     },
     {
@@ -3848,7 +3848,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:28+00:00"
+        "checked_at": "2026-11-15T06:53:17+00:00"
       }
     },
     {
@@ -3935,7 +3935,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:29+00:00"
+        "checked_at": "2026-11-15T06:53:18+00:00"
       }
     },
     {
@@ -4094,7 +4094,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:29+00:00"
+        "checked_at": "2026-11-15T06:53:18+00:00"
       }
     },
     {
@@ -4184,7 +4184,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:30+00:00"
+        "checked_at": "2026-11-15T06:53:19+00:00"
       }
     },
     {
@@ -4311,7 +4311,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:30+00:00"
+        "checked_at": "2026-11-15T06:53:19+00:00"
       }
     },
     {
@@ -4417,7 +4417,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:31+00:00"
+        "checked_at": "2026-11-15T06:53:20+00:00"
       }
     },
     {
@@ -4569,7 +4569,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:31+00:00"
+        "checked_at": "2026-11-15T06:53:20+00:00"
       }
     },
     {
@@ -4647,7 +4647,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:32+00:00"
+        "checked_at": "2026-11-15T06:53:21+00:00"
       }
     },
     {
@@ -4749,7 +4749,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:32+00:00"
+        "checked_at": "2026-11-15T06:53:21+00:00"
       }
     },
     {
@@ -4889,7 +4889,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:33+00:00"
+        "checked_at": "2026-11-15T06:53:22+00:00"
       }
     },
     {
@@ -4984,7 +4984,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:33+00:00"
+        "checked_at": "2026-11-15T06:53:22+00:00"
       }
     },
     {
@@ -5067,7 +5067,7 @@
       "detail": {
         "status": "failed",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
-        "checked_at": "2026-11-15T05:01:34+00:00"
+        "checked_at": "2026-11-15T06:53:23+00:00"
       }
     },
     {
@@ -5082,7 +5082,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:15:30+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -5297,11 +5297,11 @@
         }
       ],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://laser.nimte.ac.cn/view-32693.html",
         "characters": 2301,
-        "checked_at": "2026-11-15T05:01:35+00:00",
+        "checked_at": "2026-11-15T06:53:33+00:00",
         "rule_version": 2
       },
       "conditions_status": "parsed_roles",
@@ -5319,7 +5319,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T04:15:30+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -5404,11 +5404,11 @@
         }
       ],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://talent.hikvision.com/home/socity/position?postId=A27B035746C0AC6A44CA5D5937F03864",
         "characters": 534,
-        "checked_at": "2026-11-15T05:01:35+00:00",
+        "checked_at": "2026-11-15T06:53:43+00:00",
         "rule_version": 2
       },
       "conditions_status": "parsed_roles",
@@ -5426,7 +5426,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "录用公示/考察",
       "screening": {
         "verdict": "明确不符合",
@@ -5475,11 +5475,11 @@
       "technical_keywords": [],
       "attachments": [],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hr.zju.edu.cn/cn/2026/1111/c29598a3225992/page.htm",
         "characters": 414,
-        "checked_at": "2026-11-15T05:01:36+00:00",
+        "checked_at": "2026-11-15T06:53:43+00:00",
         "rule_version": 2
       },
       "body_positions": [],
@@ -5498,7 +5498,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "录用公示/考察",
       "screening": {
         "verdict": "明确不符合",
@@ -5551,11 +5551,11 @@
       "technical_keywords": [],
       "attachments": [],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hr.zju.edu.cn/cn/2026/1102/c29598a3221541/page.htm",
         "characters": 461,
-        "checked_at": "2026-11-15T05:01:37+00:00",
+        "checked_at": "2026-11-15T06:53:44+00:00",
         "rule_version": 2
       },
       "body_positions": [],
@@ -5574,11 +5574,11 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "detail": {
         "status": "failed",
         "error": "Redirected outside official article host or to login; authentication not attempted",
-        "checked_at": "2026-11-15T05:01:39+00:00"
+        "checked_at": "2026-11-15T06:53:55+00:00"
       },
       "screening": {
         "verdict": "需要人工核实",
@@ -5612,11 +5612,11 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "detail": {
         "status": "failed",
         "error": "Redirected outside official article host or to login; authentication not attempted",
-        "checked_at": "2026-11-15T05:01:40+00:00"
+        "checked_at": "2026-11-15T06:54:06+00:00"
       },
       "screening": {
         "verdict": "需要人工核实",
@@ -5650,11 +5650,11 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "detail": {
         "status": "failed",
         "error": "Redirected outside official article host or to login; authentication not attempted",
-        "checked_at": "2026-11-15T05:01:42+00:00"
+        "checked_at": "2026-11-15T06:54:16+00:00"
       },
       "screening": {
         "verdict": "需要人工核实",
@@ -5688,11 +5688,11 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "detail": {
         "status": "failed",
         "error": "Redirected outside official article host or to login; authentication not attempted",
-        "checked_at": "2026-11-15T05:01:43+00:00"
+        "checked_at": "2026-11-15T06:54:27+00:00"
       },
       "screening": {
         "verdict": "需要人工核实",
@@ -5726,7 +5726,7 @@
       "deadline": "2026-10-09",
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -6038,11 +6038,11 @@
         }
       ],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://hr.zju.edu.cn/cn/2026/0916/c29048a3204171/page.htm",
         "characters": 1639,
-        "checked_at": "2026-11-15T05:01:44+00:00",
+        "checked_at": "2026-11-15T06:54:28+00:00",
         "rule_version": 2
       },
       "body_positions": [],
@@ -6061,11 +6061,11 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "detail": {
         "status": "failed",
         "error": "Redirected outside official article host or to login; authentication not attempted",
-        "checked_at": "2026-11-15T05:01:46+00:00"
+        "checked_at": "2026-11-15T06:55:06+00:00"
       },
       "screening": {
         "verdict": "需要人工核实",
@@ -6099,11 +6099,11 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "detail": {
         "status": "failed",
         "error": "Redirected outside official article host or to login; authentication not attempted",
-        "checked_at": "2026-11-15T05:01:49+00:00"
+        "checked_at": "2026-11-15T06:55:44+00:00"
       },
       "screening": {
         "verdict": "需要人工核实",
@@ -6137,11 +6137,11 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "detail": {
         "status": "failed",
         "error": "Redirected outside official article host or to login; authentication not attempted",
-        "checked_at": "2026-11-15T05:01:50+00:00"
+        "checked_at": "2026-11-15T06:56:22+00:00"
       },
       "screening": {
         "verdict": "需要人工核实",
@@ -6175,7 +6175,7 @@
       "deadline": "2026-11-15",
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -6242,11 +6242,11 @@
         }
       ],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://rsc.zjgsu.edu.cn/2026/1109/c938a234350/page.htm",
         "characters": 511,
-        "checked_at": "2026-11-15T05:01:51+00:00",
+        "checked_at": "2026-11-15T06:56:31+00:00",
         "rule_version": 2
       },
       "body_positions": [],
@@ -6265,7 +6265,7 @@
       "deadline": "2026-10-07",
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -6340,11 +6340,11 @@
         }
       ],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://rsc.zjgsu.edu.cn/2026/0928/c938a231988/page.htm",
         "characters": 630,
-        "checked_at": "2026-11-15T05:01:52+00:00",
+        "checked_at": "2026-11-15T06:56:42+00:00",
         "rule_version": 2
       },
       "body_positions": [],
@@ -6363,7 +6363,7 @@
       "deadline": "2026-09-28",
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -6433,11 +6433,11 @@
         }
       ],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://rsc.zjgsu.edu.cn/2026/0921/c938a231668/page.htm",
         "characters": 762,
-        "checked_at": "2026-11-15T05:01:53+00:00",
+        "checked_at": "2026-11-15T06:56:51+00:00",
         "rule_version": 2
       },
       "body_positions": [],
@@ -6456,7 +6456,7 @@
       "deadline": "2026-07-31",
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -6507,11 +6507,11 @@
         }
       ],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://rsc.zjgsu.edu.cn/2026/0713/c938a227826/page.htm",
         "characters": 932,
-        "checked_at": "2026-11-15T05:01:54+00:00",
+        "checked_at": "2026-11-15T06:57:02+00:00",
         "rule_version": 2
       },
       "body_positions": [],
@@ -6530,7 +6530,7 @@
       "deadline": "2026-06-17",
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -6612,11 +6612,11 @@
         }
       ],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://rsc.zjgsu.edu.cn/2026/0609/c938a224144/page.htm",
         "characters": 785,
-        "checked_at": "2026-11-15T05:01:55+00:00",
+        "checked_at": "2026-11-15T06:57:11+00:00",
         "rule_version": 2
       },
       "body_positions": [],
@@ -6635,7 +6635,7 @@
       "deadline": null,
       "status": "待核实",
       "first_seen": "2026-11-15T03:56:07+00:00",
-      "last_seen": "2026-11-15T05:00:54+00:00",
+      "last_seen": "2026-11-15T06:45:52+00:00",
       "notice_type": "招聘公告",
       "screening": {
         "verdict": "需要人工核实",
@@ -6714,11 +6714,11 @@
         }
       ],
       "detail": {
-        "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+        "run_id": "7541a58d-977b-49e0-9c17-e225eb557de7",
         "status": "ok",
         "url": "https://rsc.zjgsu.edu.cn/2026/0601/c938a223795/page.htm",
         "characters": 1019,
-        "checked_at": "2026-11-15T05:01:55+00:00",
+        "checked_at": "2026-11-15T06:57:22+00:00",
         "rule_version": 2
       },
       "body_positions": [],
@@ -6836,6 +6836,6 @@
         "kind": "ValueError"
       }
     ],
-    "checked_at": "2026-11-15T05:01:56+00:00"
+    "checked_at": "2026-11-15T06:57:22+00:00"
   }
 }
