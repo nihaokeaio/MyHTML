@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-15T03:38:19+00:00",
+  "updated_at": "2026-11-15T03:40:05+00:00",
   "sources_ok": 0,
   "sources_failed": [
     {
       "source": "zjhrss",
-      "error": "<urlopen error _ssl.c:994: The handshake operation timed out>"
+      "error": "All 3 attempts failed: <urlopen error _ssl.c:994: The handshake operation timed out>"
     }
   ],
   "jobs": []
