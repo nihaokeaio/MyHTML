@@ -1,5 +1,31 @@
 # JobRadar V0.1
 
+## Windows 原生 Git 数据发布器
+
+`scripts/publish_jobradar_git.py` 是本地无人值守发布入口；旧的 API 测试发布器保留兼容，不用于正式发布。原生发布器使用 Git Credential Manager，不读取或保存 Token。已安装 GCM 时，可由用户在自己的 PowerShell 执行 `git credential-manager github login --username nihaokeaio --device`，按提示在 GitHub 官方页面授权。发布器会对每次 Git 调用覆盖旧 `manager-core` 配置、选择 `manager` 并禁止交互，不修改全局 Git 配置。应在完成授权的同一 Windows 用户环境运行；受限沙箱可能无法访问凭据库。
+
+在仓库根目录执行（默认只校验和预览，不推送）：
+
+```powershell
+.\.venv\Scripts\python.exe scripts/publish_jobradar_git.py
+.\.venv\Scripts\python.exe scripts/publish_jobradar_git.py --push
+```
+
+目标固定为 `codex/jobradar-git-validation`。待单独批准正式启用后，最小切换命令为：
+
+```powershell
+# 仅说明配置，本轮不执行：
+.\.venv\Scripts\python.exe scripts/publish_jobradar_git.py --branch main --enable-main --push
+```
+
+发布前复用批次、新鲜度和健康校验，再校验保存下来的实际发布包。允许 `partial_failure`；失败状态不能被标成健康。发布器在 `.jobradar-state/git-publish/attempt-*` 创建隔离的临时 Git 仓库和独立索引，不检出网页代码，不使用开发目录索引，也不调用 `git add`。基于远端当前提交，仅写入 `jobradar/jobs.json`、`jobradar/daily-summary.json` 两个 blob，保持发布包字节不变（包括换行符）；用非强制快进推送并重新获取远端核对两个 blob。绝不上传本地状态、日志或代码。相同字节直接跳过；若测试分支尚不存在且数据相同，仅创建指向已有提交的分支，不创建空提交。
+
+远端变动会中止当前尝试，不强制覆盖、不自动解决冲突。重试重新获取最新远端，保留其他文件的提交；拒绝比远端更旧的数据，以及同一采集时间却内容冲突的数据，后者需人工审查。默认不会在程序内部无限重试。
+
+失败时退出码为 1，发布包和独立仓库保留，修复网络或认证后重新执行相同命令即可。即使推送已经到达 GitHub、但响应丢失，重试也会核对远端后跳过。`publish.jsonl` 和每次尝试的 `result.json` 记录时间、批次、两文件 SHA256、健康状态、提交与结果；不记录 Git 原始错误输出或凭据。推送失败可能无法判定远端是否已接受，须按日志重试核对，不能仅凭本地退出码假定远端未变化。
+
+`publish.lock` 防止并发发布。异常进程退出后若锁遗留，先确认无发布进程运行再人工恢复。历史发布包和日志当前由用户按需要清理，程序不自动删除。采集、发布均可独立手动运行；本轮不增加定时任务或自动修改凭据。
+
 用于个人求职信息发现与人工核实。GitHub Pages 直接读取 jobs.json，无需服务端。
 
 ## 本地运行（Windows PowerShell）
