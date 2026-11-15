@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
+  "updated_at": "2026-11-15T05:00:54+00:00",
+  "previous_run_at": "2026-11-15T04:57:30+00:00",
+  "comparison_date": "2026-11-15",
+  "status": "partial_failure",
+  "stage_exit_codes": {
+    "collect_jobs.py": 1,
+    "enrich_jobs.py": 1
+  },
+  "message": "本次无新增重点候选",
+  "change_message": "结构化证据变化 0 个，已知截止时间变化 0 个（首次提取期限另列）",
+  "new_positions": [],
+  "changed_positions": [],
+  "deadline_changed_ids": [],
+  "hidden_positions": [
+    {
+      "id": "e6284e07f26e144e1f5a21ff",
+      "title": "副研究员",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "d87afe84ea39103e1aeaab92",
+      "title": "准聘副教授",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "1c4f37cc2ea28224c1cff4c4",
+      "title": "助理研究员",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "780a896ec9623537ddc5eca6",
+      "title": "芯片产品经理（化合物射频芯片-小信号/大信号方向）",
+      "reason": "无目标技术方向的岗位证据"
+    },
+    {
+      "id": "ff509e103e8dff4fa650c0de",
+      "title": "芯片研发技术经理 （化合物射频芯设计-小信号/大信号方向）",
+      "reason": "无目标技术方向的岗位证据"
+    },
+    {
+      "id": "30d2dc2b2655f43c5972b1f3",
+      "title": "工艺整合工程师（化合物射频芯片方向）",
+      "reason": "无目标技术方向的岗位证据"
+    },
+    {
+      "id": "e548213c929a41cbd0fed655",
+      "title": "工艺工程师（化合物射频芯片方向）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "543b54c7f09b1e20deb5cd42",
+      "title": "芯片设计师 （化合物射频芯片设计-大信号/小信号方向）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "0b70daede52551092ba48205",
+      "title": "专职科研岗（胡辉勇团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "9a15aff4ec91ce816b211034",
+      "title": "全职博士后（胡辉勇团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "5a40d63f0d7bd96dce6271b5",
+      "title": "特聘教授（丁瑞雪团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "9ca34229340e6939eacad5e0",
+      "title": "全职博士后（段宗明团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "d5e66ae77e0323a1c374715d",
+      "title": "副研究员（胡瑞敏团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "8c008571c8b067e8ab666d40",
+      "title": "全职博士后（胡瑞敏团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "7b3c9172b122d40f26f8e3ed",
+      "title": "全职博士后（蒋林华团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "61fa5c8345b2f921f083ef96",
+      "title": "助理研究员（袁细国团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "4897a36ce86fc45ea00fe442",
+      "title": "菁英副教授（袁细国团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "7f6a01a71a1c37a9e34bd641",
+      "title": "全职博士后（袁细国团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "02bb5b78417adbb272003996",
+      "title": "副研究员（徐淮良团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "e0cd5e0f8173bcf1a22cca54",
+      "title": "全职博士后（徐淮良团队）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "b0fea803d563e8b87a43daea",
+      "title": "碳/氮化物陶瓷及复合材料+博士后",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "4cb7839b4ee5d62d8f925de2",
+      "title": "薄膜外延设备研发工程师",
+      "reason": "无目标技术方向的岗位证据"
+    },
+    {
+      "id": "502f3ec7334d13329b7ed1aa",
+      "title": "电气工程类、自动化及控制类等专业博士后",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "592e91a2a33de5a5872d2831",
+      "title": "飞行器气动与CFD仿真方向博士后",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "84127a92c32a82e3f0b1b27c",
+      "title": "原子及近原子尺度制造团队招聘博士后",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "d87702ea37bed3b59377cfe8",
+      "title": "先进金属结构材料青年人才/助理研究员",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "60a5526c0e06e06d7d5e26e7",
+      "title": "药物制剂材料与技术团队 酶制剂等方向助理研究员（含博士后）",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "7b02b03c4d66141c3455acb1",
+      "title": "复合材料研究助理研究员/博士后",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "b9c6776eccea1d36b4b2321d",
+      "title": "金属材料方向助理研究员/博士后",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "321a086878aa6fe9a5047e9d",
+      "title": "深海输运金属管材料及技术研究 招聘博士后/助理研究员/副研究员",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "dca52739a79e328d54773fb1",
+      "title": "热管理技术研究方向博士后",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "b545aa2cd687a1249d83289b",
+      "title": "有机电致发光材料与器件博士后",
+      "reason": "不符合已知硬性要求"
+    },
+    {
+      "id": "fb2092b28a14e43f39c2b11e",
+      "title": "数控加工技术工程师若干",
+      "reason": "无目标技术方向的岗位证据"
+    },
+    {
+      "id": "1aa7802e41c4f02539c27582",
+      "title": "结构设计师",
+      "reason": "无目标技术方向的岗位证据"
+    },
+    {
+      "id": "8f8cd2612616d11c88e91f8b",
+      "title": "光学工程师",
+      "reason": "无目标技术方向的岗位证据"
+    },
+    {
+      "id": "aac9231b9be145a83beb7d36",
+      "title": "激光粉床增材制造工艺工程师",
+      "reason": "无目标技术方向的岗位证据"
+    },
+    {
+      "id": "b867030f8f2fbddb5439b920",
+      "title": "激光工艺研发高级助理/工程师招聘",
+      "reason": "无目标技术方向的岗位证据"
+    },
+    {
+      "id": "51ced48b6808455735bb4e40",
+      "title": "人工智能实验技术岗",
+      "reason": "明确过期"
+    },
+    {
+      "id": "5c3bfaf7b388b3c99c9c6348",
+      "title": "浙江省抗肿瘤药物临床前研究重点实验室实验技术岗",
+      "reason": "明确过期"
+    },
+    {
+      "id": "0e002eb8f9393a27078a256b",
+      "title": "机械实验技术岗",
+      "reason": "明确过期"
+    },
+    {
+      "id": "acc4e25ba733101377f0477c",
+      "title": "控制实验技术岗",
+      "reason": "明确过期"
+    },
+    {
+      "id": "71e586be5afaeb78fe74ad3c",
+      "title": "岩土工程实验技术岗",
+      "reason": "明确过期"
+    },
+    {
+      "id": "eb546cf2ca8bc97c269f755c",
+      "title": "材料制备实验技术岗",
+      "reason": "明确过期"
+    },
+    {
+      "id": "17e442cf85d465dfe03b6491",
+      "title": "机器人课程实验教学实验技术岗",
+      "reason": "明确过期"
+    },
+    {
+      "id": "bcb77e8f1f92b75c645783de",
+      "title": "人工智能实验技术岗",
+      "reason": "明确过期"
+    },
+    {
+      "id": "a4cf611ff96848f4285eb0da",
+      "title": "机械实验技术岗",
+      "reason": "明确过期"
+    },
+    {
+      "id": "ae72cb74b6128e1cc87d803b",
+      "title": "控制实验技术岗",
+      "reason": "明确过期"
+    }
+  ],
+  "suppressed_changes": [],
+  "health": {
+    "sources_ok": 7,
+    "sources_failed": [
+      {
+        "source": "zjhrss",
+        "error": "No candidate notices: check page structure, JS redirect or access restriction",
+        "kind": "CollectionError"
+      },
+      {
+        "source": "cncico",
+        "error": "Collection held: 复测返回非 JSON 页面且正文不可用；暂停自动请求，保留失败状态，待人工核实访问策略或结构后再启用",
+        "kind": "CollectionError"
+      },
+      {
+        "source": "zjimee",
+        "error": "No candidate notices: check page structure, JS redirect or access restriction",
+        "kind": "CollectionError"
+      }
+    ],
+    "details_failed": [
+      {
+        "id": "03671382debd3c8e1985",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "c4f7285ce20d0084eb89",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "b1871e5744ab63464f30",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "d5524ffac876c648ca58",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "69635598ad6b6b04a6f8",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "73414b14d5abe6fdbe5d",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "6f85742ea9a1922fefa8",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "0ad8c0ea89a7ab2d0059",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "0371f0906303de4d670b",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "b0c6b61f1264b0399c43",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "4c2e12894723bf0396a7",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "fe934b84b5ee2c3c3097",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "27739443328aeccdff5b",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "ff024e410b07a0b00903",
+        "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
+        "kind": "ValueError"
+      },
+      {
+        "id": "dd50d3be82c8f75732aa",
+        "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      },
+      {
+        "id": "bed51b50975855c3577b",
+        "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      },
+      {
+        "id": "44714b92234621d0ddfc",
+        "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      },
+      {
+        "id": "2025de5506972f93fd20",
+        "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      },
+      {
+        "id": "cef381522c38c7931d8b",
+        "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      },
+      {
+        "id": "8877819187d8b7737775",
+        "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      },
+      {
+        "id": "aa02bafda9d6d3997742",
+        "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      }
+    ],
+    "attachments_failed": []
+  },
+  "limitations": [
+    "只比较本次列表发现且正文成功的岗位；缺席不代表岗位关闭。",
+    "未知条件不当作满足；摘要候选不代表已确认可以投递。",
+    "栏目按配置限页，未宣称覆盖全站。",
+    "结构化证据变化可能包含首次提取或解析改善，不能据此声称官方修订。"
+  ]
+}
