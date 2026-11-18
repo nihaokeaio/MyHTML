@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "run_id": "b89a49ca-b165-4ed9-878d-bac22e349e0c",
-  "updated_at": "2026-11-15T05:00:54+00:00",
-  "previous_run_at": "2026-11-15T04:57:30+00:00",
-  "comparison_date": "2026-11-15",
+  "run_id": "c34ad82c-7bf9-4bda-b490-1f75b0b9323f",
+  "updated_at": "2026-11-18T11:50:00+00:00",
+  "previous_run_at": "2026-11-15T05:00:54+00:00",
+  "comparison_date": "2026-11-18",
   "status": "partial_failure",
   "stage_exit_codes": {
     "collect_jobs.py": 1,
@@ -15,6 +15,11 @@
   "changed_positions": [],
   "deadline_changed_ids": [],
   "hidden_positions": [
+    {
+      "id": "86e0501390883106dd2d08be",
+      "title": "飞行控制方向博士后",
+      "reason": "不符合已知硬性要求"
+    },
     {
       "id": "e6284e07f26e144e1f5a21ff",
       "title": "副研究员",
@@ -171,11 +176,6 @@
       "reason": "不符合已知硬性要求"
     },
     {
-      "id": "b545aa2cd687a1249d83289b",
-      "title": "有机电致发光材料与器件博士后",
-      "reason": "不符合已知硬性要求"
-    },
-    {
       "id": "fb2092b28a14e43f39c2b11e",
       "title": "数控加工技术工程师若干",
       "reason": "无目标技术方向的岗位证据"
@@ -199,56 +199,6 @@
       "id": "b867030f8f2fbddb5439b920",
       "title": "激光工艺研发高级助理/工程师招聘",
       "reason": "无目标技术方向的岗位证据"
-    },
-    {
-      "id": "51ced48b6808455735bb4e40",
-      "title": "人工智能实验技术岗",
-      "reason": "明确过期"
-    },
-    {
-      "id": "5c3bfaf7b388b3c99c9c6348",
-      "title": "浙江省抗肿瘤药物临床前研究重点实验室实验技术岗",
-      "reason": "明确过期"
-    },
-    {
-      "id": "0e002eb8f9393a27078a256b",
-      "title": "机械实验技术岗",
-      "reason": "明确过期"
-    },
-    {
-      "id": "acc4e25ba733101377f0477c",
-      "title": "控制实验技术岗",
-      "reason": "明确过期"
-    },
-    {
-      "id": "71e586be5afaeb78fe74ad3c",
-      "title": "岩土工程实验技术岗",
-      "reason": "明确过期"
-    },
-    {
-      "id": "eb546cf2ca8bc97c269f755c",
-      "title": "材料制备实验技术岗",
-      "reason": "明确过期"
-    },
-    {
-      "id": "17e442cf85d465dfe03b6491",
-      "title": "机器人课程实验教学实验技术岗",
-      "reason": "明确过期"
-    },
-    {
-      "id": "bcb77e8f1f92b75c645783de",
-      "title": "人工智能实验技术岗",
-      "reason": "明确过期"
-    },
-    {
-      "id": "a4cf611ff96848f4285eb0da",
-      "title": "机械实验技术岗",
-      "reason": "明确过期"
-    },
-    {
-      "id": "ae72cb74b6128e1cc87d803b",
-      "title": "控制实验技术岗",
-      "reason": "明确过期"
     }
   ],
   "suppressed_changes": [],
@@ -272,6 +222,21 @@
       }
     ],
     "details_failed": [
+      {
+        "id": "828bd561be94c60364d1",
+        "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      },
+      {
+        "id": "e6b4168189c2375a559e",
+        "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      },
+      {
+        "id": "38fbfa8383f49fb38457",
+        "error": "Not observed in this batch list window; detail not re-requested",
+        "kind": "ValueError"
+      },
       {
         "id": "03671382debd3c8e1985",
         "error": "Source list failed this batch; detail not re-requested, previous evidence is stale",
@@ -360,6 +325,11 @@
       {
         "id": "2025de5506972f93fd20",
         "error": "Redirected outside official article host or to login; authentication not attempted",
+        "kind": "ValueError"
+      },
+      {
+        "id": "bf849bd015059b4c6a01",
+        "error": "Not observed in this batch list window; detail not re-requested",
         "kind": "ValueError"
       },
       {
